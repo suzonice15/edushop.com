@@ -1,0 +1,139 @@
+body {
+    padding-bottom: 54px
+}
+
+#footer-bar * {
+    box-sizing: border-box
+}
+
+#footer-bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    padding: 0 12px;
+    background-color: #FFF;
+    z-index: 999;
+    box-shadow: 0 1px 3px 0;
+    box-sizing: border-box
+}
+
+.footer-icon {
+    width: 32px;
+    height: 35px;
+    padding: 4px;
+    stroke: #414141
+}
+
+.footer-icon-active {
+    stroke: #fc494d
+}
+
+.footer-item {
+    flex: 1;
+    padding: 5px;
+    overflow: hidden
+}
+
+.footer-item > a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-decoration: none;
+    color: #3a3e4a
+}
+
+.footer-text {
+    flex: 1;
+    -webkit-flex: 1;
+    width: 100%;
+    line-height: 13px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.footer-active {
+    color: #fc494d
+}
+
+#searchbar-section {
+    margin: -2px 0
+}
+
+[id$=-placeholder] {
+    height: 200px;
+    margin: 12px;
+    background-color: #eee
+}
+
+#search-bar-placeholder {
+    height: 56px;
+    margin: 0
+}
+
+#category-placeholder {
+    height: 47.8vw;
+    margin: 6px 12px 0
+}
+
+#slider-placeholder {
+    height: calc(40vw - 10px)
+    margin: 0 12px
+}
+
+[id^=new-user-zone][id$=-placeholder] {
+    height: 52.7vw
+}
+
+[id^=download-bar][id$=-placeholder] {
+    height: calc(100vw / 6.8);
+    margin: 0 0 4px 0
+}
+
+[id^=single-row-product][id$=-placeholder] {
+    height: 43vw
+}
+
+[id^=features-brands][id$=-placeholder] {
+    height: 264vw
+}
+
+[id^=group-buy][id$=-placeholder] {
+    height: calc(53vw - 12px)
+}
+
+[id^=promotion-main-entrance][id$=-placeholder] {
+    height: 40vw
+}
+
+[id^=tmall][id$=-placeholder] {
+    height: 48vw
+}
+
+[id^=shop-by-product][id$=-placeholder] {
+    height: 50vw
+}
+
+[id^=shop-by-category][id$=-placeholder] {
+    height: 113vw
+}
+
